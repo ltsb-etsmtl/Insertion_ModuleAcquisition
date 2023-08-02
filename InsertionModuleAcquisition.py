@@ -48,7 +48,7 @@ if __name__ == '__main__':
         log_filename = 'errorInsertionModuleAcquisition.log'
             
         # Fichier qui contient le dossier ayant tous les sous-dossiers pour toutes les locations
-        path_to_data = "D:\\ModuleAcquisition"
+        path_to_data = "D:\\SFTPRoot\\ModuleAcquisition"
         measurement = 'metrics'
         pattern_node = "(node_[0-9].)"
         
