@@ -30,9 +30,7 @@ import logging
 import datetime as dt
 import sys
 
-'''
 
-'''
 def is_float(valeur):
     try:
         float(valeur)
@@ -96,6 +94,7 @@ if __name__ == '__main__':
                                     field = re.sub(" ", "_", field)
 
                                     if re.search(pattern_node, field) is not None:
+                                        
                                         if (not is_float(value)):
                                             continue
 
@@ -133,10 +132,4 @@ if __name__ == '__main__':
     # Ce bloc s'exécute peu importe qu'il y ait eu une exception ou non
     finally:
         client.close()
-    
-    
-
-    
-
-    
     
